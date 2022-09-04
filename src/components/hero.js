@@ -10,7 +10,7 @@ const Hero = () => {
                 <div className={hero}>
                     <div className={columnOne}>
                         <h1>The best app for breathing is coming soon</h1>    
-                        <h2>Scientifically proven methods that benefit your health</h2>    
+                        <h2>Be the first to get access once it launches</h2>    
                         <HeroNewsletterForm></HeroNewsletterForm>    
                     </div>
 

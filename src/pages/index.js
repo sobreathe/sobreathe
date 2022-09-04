@@ -1,7 +1,9 @@
-// TODO
+// --- TODO
 // icon
 // svg logo
 // TOC & privacy policy
+// create first email for newsletter
+// add responsive 
 
 import * as React from "react"
 import Layout from "../components/layout"

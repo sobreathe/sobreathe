@@ -11,8 +11,6 @@ html, body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    /* align-items: center;
-    justify-content: center; */
 }
 
 header {
@@ -21,7 +19,6 @@ header {
 main {
     flex: 1;
     height: 100%;
-    background-color: blueviolet;
     width: 100vw;
     margin-top: 15px;
     padding-top: 15px;
@@ -33,7 +30,7 @@ main {
     text-align: center;
     margin: auto;
     flex: 1;
-    background-color: #F7F5F0;
+    background-color: #F7F5F0; 
 }
 
 .footer-links {
@@ -62,7 +59,6 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgb(80, 133, 133);
     max-width: 1200px;
     margin: auto;
 }
@@ -71,12 +67,9 @@ main {
     width: 100vw;
     align-items: center;
     justify-content: center;
-    background-color: aqua;
 }
 
 .column-one {
-    background-color: brown;
-    /* width: 800px; */
     text-align: left;
     width: 70%;
 }
@@ -95,17 +88,32 @@ main {
 }
 
 
-.hero button {
-    padding: 12px 24px;
+
+
+.hero input {
+    padding: 12px;
+    
+}
+
+.mc-embed-signup-scroll {
+    display: flex;
+    gap: 16px;
+}
+
+.form-submit-button {
+    padding: 16px 24px;
     border: none;
     border-radius: 8px;
-    font-weight: 300;
+    font-weight: 600;
     font-size: 16px;
     background-color: #3D409C;
     color: #FFFFFF
 }
-
-.hero button:hover {
+.form-submit-button:hover {
     background-color: #4e51b1;
     cursor: pointer;
+}
+
+.form-email {
+    width: 240px;
 }

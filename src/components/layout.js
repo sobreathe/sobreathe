@@ -5,7 +5,8 @@ import {
     container,
     footerLinks,
     footerLinkItem,
-    footerLinkText
+    footerLinkText,
+    footerCopyrightText
 } from "./layout.module.css";
 
 
@@ -29,7 +30,7 @@ const Layout = ({ children }) => {
                     <li className={footerLinkItem}><Link to="/terms-and-conditions" className={footerLinkText}>Terms and Conditions</Link></li>
                     <li className={footerLinkItem}><Link to="/privacy-policy" className={footerLinkText}>Privacy Policy</Link></li>
                 </ul>
-                <p>© So Breathe {new Date().getFullYear()}</p>
+                <p className={footerCopyrightText}>© So Breathe {new Date().getFullYear()}</p>
             </footer>
         </div>
     )

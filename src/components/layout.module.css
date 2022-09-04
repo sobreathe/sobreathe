@@ -1,0 +1,29 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+
+    background-color: tomato;
+}
+
+.footer-links {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-links li {
+    display:inline;
+    padding: 16px;
+}
+
+.footer-link-text {
+    color: rgba(0, 0, 0, 0.5);
+    text-decoration: none;
+}

@@ -3,5 +3,8 @@ module.exports = {
     title: `So Breathe`,
     siteUrl: `https://www.yourdomain.tld`,
   },
-  plugins: [],
+  plugins: [
+    'gatsby-plugin-image',
+    'gatsby-plugin-sharp',
+  ],
 }

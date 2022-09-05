@@ -5,6 +5,7 @@ html, body {
     margin: 0;
     padding: 0;
     font-family: 'Inter', sans-serif;
+    box-sizing: border-box;
 }
 
 .container {
@@ -98,10 +99,10 @@ main {
 .mc-embed-signup-scroll {
     display: flex;
     gap: 16px;
+    height: 48px;
 }
 
 .form-submit-button {
-    padding: 16px 24px;
     border: none;
     border-radius: 8px;
     font-weight: 600;
@@ -115,5 +116,27 @@ main {
 }
 
 .form-email {
-    width: 240px;
+    width: 300px;
+    border: 2px solid rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    font-size: 14px;
+    text-align: center;
+    /* height: 24px; */
+}
+
+.form-email:focus {
+    outline: none !important;
+    border-color: #3D409C;
+    box-shadow: 0 0 10px #3d409c25;
+}
+
+.button-container {
+
+    height: 48px;
+    border: none;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 16px;
+    background-color: #3D409C;
+    color: #FFFFFF
 }

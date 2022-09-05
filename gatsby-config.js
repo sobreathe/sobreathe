@@ -11,7 +11,15 @@ module.exports = {
       options: {
         icon: 'src/images/icon.svg',
       },
-    }
+    },
+    {
+      resolve: "gatsby-plugin-google-tagmanager",
+      options: {
+        id: "GTM-WK44L89",
+        includeInDevelopment: false,
+        },
+    },
+
 
   ],
 }

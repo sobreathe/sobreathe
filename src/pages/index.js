@@ -1,11 +1,11 @@
 // --- TODO
-// svg logo
-// TOC & privacy policy
-// create first email for newsletter
-// add responsive - https://www.gatsbyjs.com/plugins/gatsby-plugin-breakpoints/
-// gtm
-// susitvarkyt buttona
-// responsive tekstai, dydziu ref: clickable.so
+// + svg logo
+// - TOC & privacy policy
+// - create first email for newsletter
+// + add responsive - https://www.gatsbyjs.com/plugins/gatsby-plugin-breakpoints/
+// - gtm
+// + susitvarkyt buttona
+// + responsive tekstai, dydziu ref: clickable.so
 
 import * as React from "react"
 import Layout from "../components/layout"

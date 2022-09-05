@@ -2,8 +2,8 @@
 // svg logo
 // TOC & privacy policy
 // create first email for newsletter
-// add responsive 
-// visiting other pages screws up form styling
+// add responsive - https://www.gatsbyjs.com/plugins/gatsby-plugin-breakpoints/
+// gtm
 
 import * as React from "react"
 import Layout from "../components/layout"

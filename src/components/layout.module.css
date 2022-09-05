@@ -5,8 +5,14 @@ html, body {
     margin: 0;
     padding: 0;
     font-family: 'Inter', sans-serif;
-    box-sizing: border-box;
 }
+
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
 
 .container {
     display: flex;
@@ -62,6 +68,7 @@ main {
     align-items: center;
     max-width: 1200px;
     margin: auto;
+    padding: 0px 16px;
 }
 
 .hero-wrapper {
@@ -93,17 +100,13 @@ main {
 }
 
 
-
-
 .hero input {
-    padding: 12px;
-    
+    padding: 12px 24px;
 }
 
-.mc-embed-signup-scroll {
+.mc-form {
     display: flex;
-    gap: 16px;
-    height: 48px;
+    gap: 8px;
 }
 
 .form-submit-button {
@@ -112,8 +115,9 @@ main {
     font-weight: 600;
     font-size: 1.125rem;
     background-color: #3D409C;
-    color: #FFFFFF
+    color: #FFFFFF;
 }
+
 .form-submit-button:hover {
     background-color: #4e51b1;
     cursor: pointer;
@@ -138,8 +142,7 @@ main {
     box-shadow: 0 0 10px #3d409c25;
 }
 
-.button-container {
-
+/* .button-container {
     height: 48px;
     border: none;
     border-radius: 8px;
@@ -147,8 +150,40 @@ main {
     font-size: 16px;
     background-color: #3D409C;
     color: #FFFFFF
-}
+} */
 
 .emphasized-text {
     color: #3D409C;
+}
+
+@media only screen and (max-width: 800px) {
+    .hero {
+        flex-direction: column;
+    }
+    .mc-form {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 30px;
+        margin-top: 30px;
+    }
+    .form-email, .form-submit-button {
+        width: 100%;
+        
+    }
+
+    .hero h1 {
+        font-size: 40px;
+        line-height: 48px;
+        font-weight: 800;
+    }
+    
+    .hero h2 {
+        font-size: 19px;
+        line-height: 27px;
+        color: #6b6f76;
+    }
+
+    .column-one {
+        width: 100%;
+    }
 }

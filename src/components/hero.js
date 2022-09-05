@@ -18,7 +18,6 @@ const Hero = () => {
                     <StaticImage 
                         src="../images/app.png" 
                         alt="App" 
-                        // min-width={300}
                         />
                     </div>
                 </div>

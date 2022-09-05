@@ -9,17 +9,14 @@ import {
     footerCopyrightText
 } from "./layout.module.css";
 
+import logo from '../images/logo.svg'
+
 
 const Layout = ({ children }) => {
     return (
         <div className={container}>
             <header>
-                <StaticImage 
-                src="../images/logo.svg" 
-                alt="logo" 
-                placeholder="blurred"
-                width={160}
-                />
+                <Link to="/"><img src={logo} width={160} alt="logo" /></Link>
             </header>
             <main>
                 {children}

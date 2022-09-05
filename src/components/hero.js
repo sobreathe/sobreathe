@@ -10,7 +10,7 @@ const Hero = () => {
                 <div className={hero}>
                     <div className={columnOne}>
                         <h1>The best app for <span className={emphasizedText}> breathing</span> is coming soon</h1>    
-                        <h2>Be the first to get access once it launches</h2>    
+                        <h2>👇 Be the first to get access once it launches</h2>    
                         <HeroNewsletterForm></HeroNewsletterForm>    
                     </div>
 
@@ -18,6 +18,7 @@ const Hero = () => {
                     <StaticImage 
                         src="../images/app.png" 
                         alt="App" 
+                        width={400}
                         />
                     </div>
                 </div>

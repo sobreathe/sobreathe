@@ -3,7 +3,7 @@
 // - TOC & privacy policy
 // - create first email for newsletter
 // + add responsive - https://www.gatsbyjs.com/plugins/gatsby-plugin-breakpoints/
-// - gtm
+// + gtm
 // + susitvarkyt buttona
 // + responsive tekstai, dydziu ref: clickable.so
 

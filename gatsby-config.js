@@ -1,6 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: `So Breathe`,
+    title: `So Breathe - Breathing App`,
+    descriptipon: `Breathing exercises for sleep, anxiety, focus, stress. Reset your central nervous system.`,
     siteUrl: `https://www.yourdomain.tld`,
   },
   plugins: [

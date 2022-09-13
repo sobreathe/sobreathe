@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { StaticImage } from "gatsby-plugin-image"
-import { hero, heroWrapper, columnOne, columnTwo, emphasizedText } from "./layout.module.css"
+import { hero, heroWrapper, columnOne, columnTwo, emphasizedText, infoMessage } from "./layout.module.css"
 import HeroNewsletterForm from './forms/hero-newsletter-form';
 
 const Hero = () => {
@@ -9,7 +9,9 @@ const Hero = () => {
             <div className={heroWrapper}>
                 <div className={hero}>
                     <div className={columnOne}>
-                        <h1>The best app for <span className={emphasizedText}> breathing</span> is coming soon</h1>    
+                        <h1>The best <span className={emphasizedText}> breathwork</span> app is coming soon</h1>    
+                        <h3 class={infoMessage}>The easiest way to <b>stay focused</b> 🤓, <b>stress less</b> 😌, <b>fall asleep</b> 😴 and <b>reduce anxiety</b> 🤗, all for free.</h3>    
+
                         <h2>👇 Be the first to get access once it launches</h2>    
                         <HeroNewsletterForm></HeroNewsletterForm>    
                     </div>

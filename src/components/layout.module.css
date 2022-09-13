@@ -99,6 +99,18 @@ main {
     color: #6b6f76;
 }
 
+.hero h3 {
+    font-weight: 400;
+    font-size: 14px;
+    color: #3D409C;
+}
+
+.hero .info-message {
+    background-color: #e3e3f1;
+    /* width: 400px; */
+    padding: 8px 12px;
+    border-radius: 4px;
+}
 
 .hero input {
     padding: 12px 24px;

@@ -22,11 +22,11 @@ const Layout = ({ children }) => {
                 {children}
             </main>
             <footer>
-                <ul className={footerLinks}>
+                {/* <ul className={footerLinks}>
                     <li className={footerLinkItem}><Link to="/" className={footerLinkText}>Home</Link></li>
                     <li className={footerLinkItem}><Link to="/terms-and-conditions" className={footerLinkText}>Terms and Conditions</Link></li>
                     <li className={footerLinkItem}><Link to="/privacy-policy" className={footerLinkText}>Privacy Policy</Link></li>
-                </ul>
+                </ul> */}
                 <p className={footerCopyrightText}>© So Breathe {new Date().getFullYear()}</p>
             </footer>
         </div>
